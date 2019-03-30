@@ -1,0 +1,30 @@
+https://www.regextester.com/
+
+\/\*!.*[\s\S]|^.*--.*
+
+-- sdfdsf
+sdgsdfgsdfg--
+/*!
+*
+/*
+*\
+
+Block comments are removed - easy peasy
+
+// ertwerrt
+/!b ertret
+/*!b wert ewt
+/*
+
+https://urls.are.preserved.for.you// and comments after them are removed
+asdfasdf// the comment can bump right up to text
+asdfasdf;// ...or a semicolon.
+
+{
+   foo:// you will need a parser to remove this comment b/c it smells like a URL
+	    "bar",// ...but not this one
+	boo: // ...or this one
+		"who"
+}
+
+x.replace(/\//g, '/');
