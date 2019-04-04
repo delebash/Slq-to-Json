@@ -4,13 +4,13 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-DROP TABLE IF EXISTS `new_table`;
 CREATE TABLE IF NOT EXISTS `new_table` (
   `id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
+  `new_tablecol` varchar(45) DEFAULT NULL,
+  `price` int(11) NOT NULL,
+  PRIMARY KEY (`id`,`price`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-DROP TABLE IF EXISTS `tbl`;
 CREATE TABLE IF NOT EXISTS `tbl` (
   `id` int(11) NOT NULL,
   `name` varchar(45) DEFAULT NULL,
