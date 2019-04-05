@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "flat": "^4.1.0",
     "sql-ddl-to-json-schema": "^3.0.1"
   }
 }
