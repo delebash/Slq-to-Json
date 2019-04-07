@@ -4,8 +4,7 @@
 
 // Define the model using JSON-schema
 let schema = {
-// !
-<DEFAULT> code: schema_header
+// !<DEFAULT> code: schema_header
     title: 'tbl',
     description: 'tbl database.',
 
@@ -18,7 +17,7 @@ let schema = {
     // Required fields.
     required: [
     // !code: schema_required
-
+  "id"
     // !end
     ],
     // Fields with unique values.
@@ -31,7 +30,17 @@ let schema = {
     // Fields in the model.
     properties: {
     // !code: schema_properties
-        ,
+  id: {
+    $comment: "primary key",
+    type: "integer",
+    minimum: 1,
+    maximum: 1.5474250491067253e+26
+  },
+  name: {
+    type: "string",
+    maxLength: 45,
+    default: null
+  }
     // !end
     },
     // !code: schema_more
@@ -62,8 +71,7 @@ let schema = {
     // !end
     ],
     add: {
-    // !
-    <DEFAULT> code: graphql_add
+        // !<DEFAULT> code: graphql_add
         // __author__: { type: '__User__!', args: false, relation: { ourTable: '__authorId__', otherTable: 'id' } },
 
         // !end

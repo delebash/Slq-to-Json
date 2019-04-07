@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "ejs": "^2.6.1",
-    "sql-ddl-to-json-schema": "^3.0.1"
+    "sql-ddl-to-json-schema": "^3.0.1",
+    "stringify-object": "^3.3.0"
+  },
+  "devDependencies": {
+    "prettier": "1.16.4"
   }
 }

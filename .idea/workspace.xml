@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f192fd48-3fc6-49b1-af6f-73fb85f28c5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/template.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f192fd48-3fc6-49b1-af6f-73fb85f28c5b" name="Default Changelist" comment="updatre .gitignore remove node_modules">
+      <change afterPath="$PROJECT_DIR$/example/animal.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/feathers-service-schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/new_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/new_table.schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tbl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tbl.schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nearley-railroad.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nearley-test.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nearley-unparse.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nearleyc.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nearley/node_modules/.bin/semver.ps1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/template.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/node_modules/.bin/nearley-railroad.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/node_modules/.bin/nearley-test.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/node_modules/.bin/nearley-unparse.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/node_modules/.bin/nearleyc.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +53,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+            <state relative-caret-position="89">
+              <caret line="254" column="9" lean-forward="true" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/template.ejs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/new_table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="289">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/tbl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,10 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>--</find>
-      <find>;</find>
-      <find>my</find>
-      <find>mysql</find>
       <find>title</find>
       <find>jsonSchemas</find>
       <find>isde</find>
@@ -78,7 +106,6 @@
       <find>$comment</find>
       <find>$</find>
       <find>write</find>
-      <find>schema</find>
       <find>jsonschemas</find>
       <find>jsonsch</find>
       <find>JsonSchemaArray</find>
@@ -89,6 +116,14 @@
       <find>ejs</find>
       <find>flatten</find>
       <find>flat</find>
+      <find>fla</find>
+      <find>render</find>
+      <find>toJsonSchemaFiles</find>
+      <find>buil</find>
+      <find>quoted</find>
+      <find>resetParser</find>
+      <find>strSchema</find>
+      <find>schema</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -99,6 +134,8 @@
       <dir>E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema\lib</dir>
       <dir>E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema</dir>
       <dir>E:\Development\Slq-to-Json</dir>
+      <dir>E:\Development\Slq-to-Json\node_modules\ejs</dir>
+      <dir>E:\Development\Slq-to-Json\node_modules</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -118,9 +155,10 @@
         <option value="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/template.ejs" />
         <option value="$PROJECT_DIR$/example/template.ejs" />
         <option value="$PROJECT_DIR$/example/tbl.schema.json" />
-        <option value="$PROJECT_DIR$/example/new_table.js" />
-        <option value="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/example/feathers-service-schema.js" />
+        <option value="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js" />
+        <option value="$PROJECT_DIR$/example/new_table.js" />
         <option value="$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/template.ejs" />
       </list>
     </option>
@@ -143,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,25 +191,13 @@
             <path>
               <item name="Slq-to-Json" type="b2602c69:ProjectViewProjectNode" />
               <item name="Slq-to-Json" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Slq-to-Json" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Slq-to-Json" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sql-ddl-to-json-schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Slq-to-Json" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Slq-to-Json" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sql-ddl-to-json-schema" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,22 +205,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\Development\Slq-to-Json\node_modules\prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema\lib" />
-      <recent name="E:\Development\Slq-to-Json\example" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Development\Slq-to-Json\example" />
       <recent name="E:\Development\Slq-to-Json" />
       <recent name="E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema" />
       <recent name="E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Development\Slq-to-Json\node_modules\sql-ddl-to-json-schema\lib" />
+      <recent name="E:\Development\Slq-to-Json\example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +271,14 @@
       <workItem from="1554354399729" duration="4608000" />
       <workItem from="1554426077072" duration="1197000" />
       <workItem from="1554427399479" duration="493000" />
-      <workItem from="1554432211066" duration="252000" />
+      <workItem from="1554432211066" duration="6504000" />
+      <workItem from="1554473959647" duration="1094000" />
+      <workItem from="1554502044793" duration="5050000" />
+      <workItem from="1554554693856" duration="9000" />
+      <workItem from="1554554719333" duration="18000" />
+      <workItem from="1554561386786" duration="9533000" />
+      <workItem from="1554594188661" duration="8682000" />
+      <workItem from="1554612127233" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="Updated templated">
       <created>1554354838176</created>
@@ -260,40 +294,89 @@
       <option name="project" value="LOCAL" />
       <updated>1554427631533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updatre .gitignore remove node_modules">
+      <created>1554432489329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554432489329</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updatre .gitignore remove node_modules">
+      <created>1554432630274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554432630274</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stringify">
+      <created>1554605240193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554605240193</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46067000" />
+    <option name="totallyTimeSpent" value="81282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.24432677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.24281392" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.24281392" />
       <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32411674" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SvgViewer" order="4" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.24281392" />
+      <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.24281392" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32411674" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SvgViewer" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-    </layout>
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SvgViewer" order="4" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -313,20 +396,16 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Updated templated" />
     <MESSAGE value="updatre .gitignore remove node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="updatre .gitignore remove node_modules" />
+    <MESSAGE value="stringify" />
+    <option name="LAST_COMMIT_MESSAGE" value="stringify" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js</url>
-          <line>262</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js</url>
-          <line>260</line>
-          <option name="timeStamp" value="2" />
+          <line>247</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -349,9 +428,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/example.sql" />
-    <entry file="file://$PROJECT_DIR$/example/heidi.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/mysql/formatter/json-schema/models/datatype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -390,13 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/shared/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="154" column="13" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -480,9 +549,7 @@
     <entry file="file://$PROJECT_DIR$/example/template.ejs" />
     <entry file="file://$PROJECT_DIR$/myfile.hml" />
     <entry file="file://$PROJECT_DIR$/example/tbl.schema.json" />
-    <entry file="file://$PROJECT_DIR$/example/tbl.js" />
     <entry file="file://$PROJECT_DIR$/tblundefined" />
-    <entry file="file://$PROJECT_DIR$/example/new_table.js" />
     <entry file="file://$PROJECT_DIR$/example/new_table.schema.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,17 +561,64 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="113">
+            <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/shared/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/feathers-service-schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/tbl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/template.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="102">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/heidi.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/new_table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sql-ddl-to-json-schema/lib/parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="254" column="9" lean-forward="true" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
         </state>
       </provider>
     </entry>
