@@ -6,7 +6,7 @@ const { writeFileSync } = require('fs');
 const parser = new Parser('mysql');
 const options = {};
 
-let sql = readFileSync(join(__dirname, 'example', 'heidi.sql')).toString();
+let sql = readFileSync(join(__dirname, 'example', 'animal.sql')).toString();
 sql = sql.replace( new RegExp("\\/\\*!.*[\\s\\S]|^.*--.*","gm"),"");
 
 parser.feed(sql)
